@@ -1,0 +1,865 @@
+2018-10-09 10:16:18,265 ERROR 33902 [-/::1/-/8ms GET /movie] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "eje"
+    at ContextView.[contextView#getViewEngine] (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view@2.1.0@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view@2.1.0@egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 33902
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 11:17:30,349 ERROR 33769 nodejs.ClusterClientNoResponseError: client no response in 1068864ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qianlfeg/Downloads/crawler/node_modules/_cluster-client@2.1.1@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 33769
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 11:20:38,697 ERROR 34958 [-/::1/-/30747ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:22:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 34958
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 11:43:14,478 ERROR 35320 [-/::1/-/30318ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:22:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 35320
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 11:44:25,502 ERROR 35344 [-/::1/-/30259ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:22:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 35344
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 11:53:00,196 ERROR 35501 [-/::1/-/30308ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:22:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 35501
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 11:54:58,248 ERROR 35553 [-/::1/-/30261ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:22:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 35553
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 11:58:35,938 ERROR 35612 [-/::1/-/30301ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:22:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 35612
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:00:17,154 ERROR 35661 [-/::1/-/9438ms GET /movie] nodejs.Error: Evaluation failed: TypeError: Cannot read property 'url' of undefined
+    at HTMLLIElement.items.each (__puppeteer_evaluation_script__:11:36)
+    at Function.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:2573)
+    at w.fn.init.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:1240)
+    at __puppeteer_evaluation_script__:7:15
+    at HTMLLIElement.items.each (__puppeteer_evaluation_script__:11:36)
+    at Function.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:2573)
+    at w.fn.init.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:1240)
+    at __puppeteer_evaluation_script__:7:15
+    at ExecutionContext.evaluateHandle (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:106:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at ExecutionContext.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:58:31)
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Frame.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:439:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:728:43)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:31:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 35661
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:01:03,069 ERROR 35684 [-/::1/-/30249ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 35684
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:02:22,674 ERROR 35717 [-/::1/-/30257ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 35717
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:04:24,757 ERROR 35767 [-/::1/-/30307ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 35767
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:39:24,082 ERROR 35749 nodejs.ClusterClientNoResponseError: client no response in 305400ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qianlfeg/Downloads/crawler/node_modules/_cluster-client@2.1.1@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 35749
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:50:12,501 ERROR 36198 [-/::1/-/30711ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36198
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:52:46,816 ERROR 36248 [-/::1/-/30306ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36248
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:53:38,827 ERROR 36286 [-/::1/-/10114ms GET /movie] nodejs.Error: Evaluation failed: TypeError: Cannot read property 'url' of undefined
+    at HTMLLIElement.items.each (__puppeteer_evaluation_script__:11:36)
+    at Function.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:2573)
+    at w.fn.init.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:1240)
+    at __puppeteer_evaluation_script__:7:15
+    at HTMLLIElement.items.each (__puppeteer_evaluation_script__:11:36)
+    at Function.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:2573)
+    at w.fn.init.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:1240)
+    at __puppeteer_evaluation_script__:7:15
+    at ExecutionContext.evaluateHandle (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:106:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at ExecutionContext.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:58:31)
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Frame.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:439:20)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:728:43)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:31:31)
+    at <anonymous>
+
+pid: 36286
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:57:01,734 ERROR 36342 [-/::1/-/30303ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36342
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:57:56,724 ERROR 36360 [-/::1/-/30250ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36360
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 12:59:26,448 ERROR 36418 [-/::1/-/8109ms GET /movie] nodejs.Error: Evaluation failed: TypeError: Cannot read property 'url' of undefined
+    at HTMLLIElement.items.each (__puppeteer_evaluation_script__:11:36)
+    at Function.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:2573)
+    at w.fn.init.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:1240)
+    at __puppeteer_evaluation_script__:7:15
+    at HTMLLIElement.items.each (__puppeteer_evaluation_script__:11:36)
+    at Function.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:2573)
+    at w.fn.init.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:1240)
+    at __puppeteer_evaluation_script__:7:15
+    at ExecutionContext.evaluateHandle (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:106:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at ExecutionContext.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:58:31)
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Frame.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:439:20)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:728:43)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:31:31)
+    at <anonymous>
+
+pid: 36418
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:00:20,214 ERROR 36438 [-/::1/-/30265ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36438
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:10:50,673 ERROR 36467 [-/::1/-/30376ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36467
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:13:06,971 ERROR 36674 [-/::1/-/30342ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36674
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:13:48,326 ERROR 36690 [-/::1/-/30292ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36690
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:14:00,683 ERROR 36707 [-/::1/-/299ms GET /movie] nodejs.Error: ERROR: "networkidle" option is no longer supported. Use "networkidle2" instead
+    at assert (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:259:11)
+    at new NavigatorWatcher (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1125:5)
+    at FrameManager.navigateFrame (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:75:21)
+    at Frame.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:404:37)
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 36707
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:14:07,112 ERROR 36707 [-/::1/-/230ms GET /movie] nodejs.Error: ERROR: "networkidle" option is no longer supported. Use "networkidle2" instead
+    at assert (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:259:11)
+    at new NavigatorWatcher (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1125:5)
+    at FrameManager.navigateFrame (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:75:21)
+    at Frame.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:404:37)
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 36707
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:14:17,712 ERROR 36731 [-/::1/-/258ms GET /movie] nodejs.Error: ERROR: "networkidle" option is no longer supported. Use "networkidle2" instead
+    at assert (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:259:11)
+    at new NavigatorWatcher (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1125:5)
+    at FrameManager.navigateFrame (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:75:21)
+    at Frame.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:404:37)
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 36731
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:16:27,574 ERROR 36739 [-/::1/-/30306ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36739
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:17:15,120 ERROR 36739 [-/::1/-/30319ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36739
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:18:34,862 ERROR 36804 [-/::1/-/30312ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:24:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36804
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:19:31,910 ERROR 36830 [-/::1/-/30241ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:25:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36830
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:22:17,582 ERROR 36900 [-/::1/-/30292ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:25:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36900
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:32:48,578 ERROR 36923 [-/::1/-/30335ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:25:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36923
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:37:22,395 ERROR 36923 [-/::1/-/30493ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:25:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 36923
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:38:43,697 ERROR 37162 [-/127.0.0.1/-/30304ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:25:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 37162
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:41:59,761 ERROR 37262 [-/127.0.0.1/-/31403ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:27:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 37262
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:45:29,960 ERROR 37262 [-/127.0.0.1/-/16976ms GET /movie] nodejs.Error: Navigation failed because browser has disconnected!
+    at Connection.NavigatorWatcher._eventListeners.helper.addEventListener (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1146:117)
+    at emitNone (events.js:111:20)
+    at Connection.emit (events.js:208:7)
+    at Connection._onClose (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Connection.js:123:10)
+    at WebSocketTransport._ws.addEventListener.event (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/WebSocketTransport.js:45:22)
+    at WebSocket.onClose (/Users/qianlfeg/Downloads/crawler/node_modules/_ws@5.2.2@ws/lib/event-target.js:124:16)
+    at emitTwo (events.js:126:13)
+    at WebSocket.emit (events.js:214:7)
+    at WebSocket.emitClose (/Users/qianlfeg/Downloads/crawler/node_modules/_ws@5.2.2@ws/lib/websocket.js:172:10)
+    at Socket.socketOnClose (/Users/qianlfeg/Downloads/crawler/node_modules/_ws@5.2.2@ws/lib/websocket.js:781:15)
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:27:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 37262
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:47:48,385 ERROR 37380 [-/127.0.0.1/-/31421ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:29:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 37380
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:49:27,304 ERROR 37430 [-/127.0.0.1/-/31431ms GET /movie] nodejs.TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
+    at Promise.then (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:1230:21)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.goto (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:579:49)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:29:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+name: "TimeoutError"
+pid: 37430
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 13:58:07,369 ERROR 37665 [-/127.0.0.1/-/2467ms GET /movie] nodejs.Error: Evaluation failed: ReferenceError: browser is not defined
+    at __puppeteer_evaluation_script__:24:7
+    at __puppeteer_evaluation_script__:24:7
+    at ExecutionContext.evaluateHandle (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:106:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at ExecutionContext.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:58:31)
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Frame.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:439:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:728:43)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:36:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 37665
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 14:06:39,082 ERROR 37846 [-/127.0.0.1/-/4189ms GET /movie] nodejs.TypeError: Cannot read property 'url' of undefined
+    at result.forEach (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:63:38)
+    at Array.forEach (<anonymous>)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:62:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 37846
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 14:12:09,643 ERROR 37950 [-/127.0.0.1/-/7ms GET /movie] nodejs.SyntaxError: Identifier 'page' has already been declared
+    at MovieController.index (/Users/qianlfeg/Downloads/crawler/app/controller/movie.js:9:41)
+    at Object.callFn (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/qianlfeg/Downloads/crawler/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 37950
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 14:12:30,850 ERROR 37959 [-/127.0.0.1/-/9ms GET /movie] nodejs.SyntaxError: Identifier 'page' has already been declared
+    at MovieController.index (/Users/qianlfeg/Downloads/crawler/app/controller/movie.js:9:41)
+    at Object.callFn (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/qianlfeg/Downloads/crawler/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 37959
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 14:12:40,632 ERROR 37972 [-/127.0.0.1/-/8ms GET /movie] nodejs.SyntaxError: Identifier 'page' has already been declared
+    at MovieController.index (/Users/qianlfeg/Downloads/crawler/app/controller/movie.js:9:41)
+    at Object.callFn (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/qianlfeg/Downloads/crawler/node_modules/_egg-core@4.10.3@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/qianlfeg/Downloads/crawler/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/qianlfeg/Downloads/crawler/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 37972
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 15:40:23,697 ERROR 37970 nodejs.ClusterClientNoResponseError: client no response in 4193487ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qianlfeg/Downloads/crawler/node_modules/_cluster-client@2.1.1@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 37970
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 17:11:51,648 ERROR 37970 nodejs.ClusterClientNoResponseError: client no response in 5487015ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qianlfeg/Downloads/crawler/node_modules/_cluster-client@2.1.1@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 37970
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 17:24:14,663 ERROR 37970 nodejs.ClusterClientNoResponseError: client no response in 62416ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qianlfeg/Downloads/crawler/node_modules/_cluster-client@2.1.1@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 37970
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 19:19:24,026 ERROR 37970 nodejs.ClusterClientNoResponseError: client no response in 6889347ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qianlfeg/Downloads/crawler/node_modules/_cluster-client@2.1.1@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 37970
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 19:27:00,977 ERROR 38873 [-/127.0.0.1/-/3915ms GET /movie] nodejs.TypeError: page.goto is not a function
+    at result.forEach.item (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:66:12)
+    at Array.forEach (<anonymous>)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:64:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 38873
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 19:35:55,539 ERROR 39043 [-/127.0.0.1/-/1986ms GET /movie] nodejs.Error: Evaluation failed: TypeError: $ is not a function
+    at __puppeteer_evaluation_script__:4:21
+    at __puppeteer_evaluation_script__:4:21
+    at ExecutionContext.evaluateHandle (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:106:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at ExecutionContext.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:58:31)
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Frame.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:439:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:728:43)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:36:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 39043
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 19:45:53,552 ERROR 39269 [-/127.0.0.1/-/4607ms GET /movie] nodejs.ReferenceError: item is not defined
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:66:44)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 39269
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 19:49:39,166 ERROR 39356 [-/127.0.0.1/-/5049ms GET /movie] nodejs.Error: Evaluation failed: ReferenceError: result is not defined
+    at __puppeteer_evaluation_script__:4:9
+    at __puppeteer_evaluation_script__:4:9
+    at ExecutionContext.evaluateHandle (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:106:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at ExecutionContext.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:58:31)
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Frame.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:439:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:728:43)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:70:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 39356
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 19:50:33,038 ERROR 39356 [-/127.0.0.1/-/4895ms GET /movie] nodejs.Error: Evaluation failed: ReferenceError: result is not defined
+    at __puppeteer_evaluation_script__:4:9
+    at __puppeteer_evaluation_script__:4:9
+    at ExecutionContext.evaluateHandle (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:106:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at ExecutionContext.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:58:31)
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Frame.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:439:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:728:43)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:70:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 39356
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 20:23:11,570 ERROR 40136 nodejs.unhandledRejectionError: Protocol error (Target.closeTarget): Target closed.
+    at Promise (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Connection.js:73:56)
+    at new Promise (<anonymous>)
+    at Connection.send (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Connection.js:72:12)
+    at Page.close (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:900:38)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:81:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+message: "Protocol error (Target.closeTarget): Target closed."
+name: "unhandledRejectionError"
+pid: 40136
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 20:30:01,803 ERROR 40183 nodejs.unhandledRejectionError: Protocol error (Target.closeTarget): Target closed.
+    at Promise (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Connection.js:73:56)
+    at new Promise (<anonymous>)
+    at Connection.send (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Connection.js:72:12)
+    at Page.close (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:900:38)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:81:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+message: "Protocol error (Target.closeTarget): Target closed."
+name: "unhandledRejectionError"
+pid: 40183
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 20:30:26,268 ERROR 40183 nodejs.unhandledRejectionError: Protocol error (Target.closeTarget): Target closed.
+    at Promise (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Connection.js:73:56)
+    at new Promise (<anonymous>)
+    at Connection.send (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Connection.js:72:12)
+    at Page.close (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:900:38)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:81:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+message: "Protocol error (Target.closeTarget): Target closed."
+name: "unhandledRejectionError"
+pid: 40183
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 20:33:36,270 ERROR 40330 [-/127.0.0.1/-/5839ms GET /movie] nodejs.Error: Evaluation failed: TypeError: Cannot read property 'split' of undefined
+    at HTMLLIElement.items.each (__puppeteer_evaluation_script__:12:50)
+    at Function.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:2573)
+    at w.fn.init.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:1240)
+    at __puppeteer_evaluation_script__:8:15
+    at HTMLLIElement.items.each (__puppeteer_evaluation_script__:12:50)
+    at Function.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:2573)
+    at w.fn.init.each (https://www.0101qq.com/css/js/jquery-3.3.1.min.js:2:1240)
+    at __puppeteer_evaluation_script__:8:15
+    at ExecutionContext.evaluateHandle (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:106:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  -- ASYNC --
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at ExecutionContext.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/ExecutionContext.js:58:31)
+    at ExecutionContext.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at Frame.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/FrameManager.js:439:20)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:144:27)
+    at Page.evaluate (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:728:43)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:37:31)
+    at <anonymous>
+
+pid: 40330
+hostname: qianlfegdeMacBook-Pro.local
+
+2018-10-09 20:37:19,094 ERROR 40370 nodejs.unhandledRejectionError: Protocol error (Target.closeTarget): Target closed.
+    at Promise (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Connection.js:73:56)
+    at new Promise (<anonymous>)
+    at Connection.send (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Connection.js:72:12)
+    at Page.close (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/Page.js:900:38)
+    at Page.<anonymous> (/Users/qianlfeg/Downloads/crawler/node_modules/_puppeteer@1.9.0@puppeteer/lib/helper.js:145:23)
+    at MovieService.getNewsList (/Users/qianlfeg/Downloads/crawler/app/service/movie.js:81:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+message: "Protocol error (Target.closeTarget): Target closed."
+name: "unhandledRejectionError"
+pid: 40370
+hostname: qianlfegdeMacBook-Pro.local
+

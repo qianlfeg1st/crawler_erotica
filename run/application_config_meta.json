@@ -1,0 +1,292 @@
+{
+  "keys": "/Users/qianlfeg/Downloads/crawler/config/config.default.js",
+  "middleware": "/Users/qianlfeg/Downloads/crawler/config/config.default.js",
+  "view": {
+    "mapping": {
+      ".html": "/Users/qianlfeg/Downloads/crawler/config/config.default.js"
+    },
+    "root": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "cache": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view@2.1.0@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js"
+  },
+  "url": "/Users/qianlfeg/Downloads/crawler/config/config.default.js",
+  "baseUrl": "/Users/qianlfeg/Downloads/crawler/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "useSession": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "cookieName": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "sessionName": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "headerName": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "bodyName": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "queryName": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "value": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "value": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "value": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "policy": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-schedule@3.4.0@egg-schedule/config/config.default.js",
+      "file": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-schedule@3.4.0@egg-schedule/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "fields": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "files": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-multipart@2.2.1@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "fastReady": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dir": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dynamic": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "preload": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "buffer": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "maxFiles": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view-ejs@2.0.0@egg-view-ejs/config/config.default.js",
+    "cache": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view-ejs@2.0.0@egg-view-ejs/config/config.local.js",
+    "debug": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view-ejs@2.0.0@egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view-ejs@2.0.0@egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view-ejs@2.0.0@egg-view-ejs/config/config.default.js",
+    "strict": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg-view-ejs@2.0.0@egg-view-ejs/config/config.default.js"
+  },
+  "env": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "name": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "proxy": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "protocolHeaders": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "ipHeaders": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "hostHeaders": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "version": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "description": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "private": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "egg-scripts": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "egg-view-ejs": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "autod-egg": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "egg-bin": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "egg-ci": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "egg-mock": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "eslint": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "stop": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "dev": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "debug": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "test": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "test-local": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "cov": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "lint": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "ci": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "autod": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "url": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    },
+    "author": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "license": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+  },
+  "baseDir": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "HOME": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "rundir": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "notFound": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "sitefile": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "middlewares": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "httpClient": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "encoding": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "formLimit": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "jsonLimit": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "strict": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "depth": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "parameterLimit": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "encoding": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "env": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "level": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "consoleLevel": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "outputJSON": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "buffer": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "appLogName": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "coreLogName": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "agentLogName": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "errorLogName": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "maxSockets": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "maxSockets": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "logging": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "port": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+      "hostname": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js",
+    "responseTimeout": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/qianlfeg/Downloads/crawler/node_modules/_egg@2.11.2@egg/config/config.default.js"
+}
